@@ -1,0 +1,158 @@
+.footer {
+    background-color: #1d1d1d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    padding: 30px;
+  }
+  .boxfooter {
+    width: 100%;
+    min-height: 300px;
+  
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .boxverticallogo {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  .boxverticaldesc {
+    width: 250px;
+    height: 300px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxverticalsocials {
+    width: 370px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .descfooter {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+  }
+  .boxverticalsocials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Container{
+    width: 100%;
+    background-color: #0f0f0f;
+    padding: 50px;
+    font-family: "Public sans", sans-serif;
+}
+
+.logo{
+  position: relative;
+  bottom: 10px;
+}
+
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.coluna1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+.redes{
+    display: flex;
+    flex-direction: row;
+}
+
+.bola{
+    padding: 7px 0px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: all 0.3s;
+    position: relative;
+    right: 10px;
+    color: white;
+}
+
+.bola:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.li{
+    list-style: none;
+    margin-top: 10px;
+    font-weight: 200;
+    color: white;
+    font-size: 14px;
+
+}
+
+.textColumn{
+    font-size: 14px;
+    color: white;
+}
+
+.textAbout{
+    font-size: 14px;
+    color: white;
+}
+
+.Copyright{
+    font-size: 12px;
+    color: rgb(246, 246, 246);
+    margin-top: 30px;
+}
+
+.SecondFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  
+    .Footer{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+        align-items: left;
+    }
+
+    .textAbout{
+        min-width: 300px;
+        margin-top: 20px;
+    }
+
+    .coluna1, .coluna2, .coluna3, .coluna4, .SecondFooter{
+        margin-top: 20px;
+        position: relative;
+        right: 25px;
+    }
+    
+  }

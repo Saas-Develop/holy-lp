@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.Content{
+  background: rgb(17,15,23);
+  height: 2000px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.LeftSide{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.RightSide{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.Container{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1150px;
+  margin: 0 auto;
+  align-items: center;
+
+}
+
+.title{
+  font-size: 32px;
+  color: #e0e0e0;
+  margin-top: 50px;
+  width: 780px;
+  font-weight: 700;
+}
+
+.subtitle{
+  font-size: 16px;
+  margin-top: 30px;
+  text-align: left;
+  font-weight: 300;
+  color: #e0e0e0;
+}
+
+.b{
+  font-weight: 800;
+}
+
+.blue{
+  font-weight: 800;
+  color: rgb(173, 17, 173);
+}
+
+.photodiv{
+  border-radius: 50px;
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+  width: 300px;
+}
+
+.sectionTitle{
+  margin-top: 50px;
+  color: white;
+}
+
+.ButtonContainer{
+  max-width: 290px;
+}
+
+@media (max-width: 600px) {
+  
+  .Content{
+    height: 100%;
+  }
+
+  .Container{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .subtitle{
+    width: 90%;
+  }
+
+  .title{
+    width: 400px;
+    font-size: 42px;
+  }
+
+  .RightSide{
+    position: relative;
+    right: 470px;
+    bottom: 110px;
+  }
+  
+}
