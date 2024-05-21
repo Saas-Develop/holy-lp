@@ -40,7 +40,7 @@ export const ThirdContainer = () => {
                                         </div>
                                     </div>
                         </div>
-                        <Image src={foto1} alt="couple" width={500}/>
+                        <Image src={foto1} className="float-animation" alt="couple" width={600}/>
                     </div>
             </div>
         </div>

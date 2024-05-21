@@ -2,17 +2,16 @@ import styles from './Footer.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
 import {FaInstagram, FaYoutube, FaLinkedin} from "react-icons/fa";
-import logo from '../../../public/icon.png'
+import logo from '../../../public/holy.png'
 
 export default function Footer(){
     return(
         <footer className={styles.footer}>
             <div className={styles.Footer}>
                   <div className={styles.coluna1}>
-                      <Image src={logo} width={50} className={styles.logo} alt='logotipe'/>
+                      <Image src={logo} width={70} className={styles.logo} alt='logotipe'/>
                       <p className={styles.textAbout}>
-                      Eu, Você & Cristo é um aplicativo de relacionamento cristão baseado em apresentar pessoas dispostas a terem um relacionamento baseadas na bíblia uma para outra.
-                      </p>
+                      Com o Holy você pode facilmente organizar as finanças da igreja, gerenciar membros e promover o crescimento da sua comunidade. Torne a administração mais eficiente e foque no que realmente importa: fortalecer a fé e unir as pessoas.                      </p>
                       
                   </div>
                   <div className={styles.coluna2}>
@@ -47,7 +46,7 @@ export default function Footer(){
               </div>
               <div className={styles.SecondFooter}>
                   <p className={styles.Copyright}>
-                      © 2024 - EU, VOCÊ & CRISTO, Todos os direitos reservados<br/>
+                      © 2024 - Alexandre Saints, Todos os direitos reservados<br/>
                   </p>
               </div>  
       </footer>

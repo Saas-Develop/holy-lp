@@ -14,7 +14,7 @@ export const SecondContainer = () => {
     return(
         <div className="bg-[#FFFFFF] min-h-[65vh] w-full py-10 overflow-x-hidden overflow-y-hidden "> 
             <main>
-                <h1 className="text-4xl md:text-4xl text-black text-center w-full md:w-[900px] mx-auto mt-14 md:mt-28 font-sans font-[500]">Nossas funcionalidades</h1>
+                <h1 className="text-4xl md:text-4xl text-black text-center w-full md:w-[900px] mx-auto mt-14 md:mt-28 font-sans font-[500]" id="PlanoTop">Nossas funcionalidades</h1>
                 <div className="flex lg:flex-row w-[75vw] mx-auto flex-col lg:justify-around">
                     <div className="rounded-[30px] bg-white w-[250px] h-[250px] mx-auto mt-10 flex flex-col ">
                         <div className="flex flex-row justify-between p-6 items-center">

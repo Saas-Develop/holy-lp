@@ -1,10 +1,11 @@
 'use client'
 
 import Header from "./Header"
-import couple from '../../../public/foto1.png'
+import couple from '../../../public/three.png'
 import Image from "next/image"
 import { IoMdArrowForward } from "react-icons/io";
 import { MdOutlineArrowOutward, MdStars  } from "react-icons/md";
+import { useEffect, useRef } from "react";
 
 export const FirstContainer = () => {
     const handleClick = () => {
@@ -13,6 +14,14 @@ export const FirstContainer = () => {
           targetElement.scrollIntoView({ behavior: "smooth" });
         }
     };
+
+    const imageRef = useRef(null);
+
+    useEffect(() => {
+        if (imageRef.current) {
+            imageRef.current.classList.add('fade-in');
+        }
+    }, []);
 
     return(
         <div
@@ -40,6 +49,9 @@ export const FirstContainer = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="mx-auto flex justify-center mt-[80px] mb-[50px]">
+                    <Image ref={imageRef} src={couple} className="float-animation" alt="couple" width={950}/>
                 </div>
             </main>
         </div>
