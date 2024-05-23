@@ -1,0 +1,44 @@
+.corpodaLista{
+    width: 50%;
+    margin-top: 30px;
+}
+
+.duvidaItem {
+    margin-bottom: 10px;
+  }
+  
+  .pergunta {
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    background-color: #F7F7F7;
+    color: #373737;
+    padding: 20px;
+    transition: 0.3s all;
+    text-align: left;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .pergunta:hover{
+    background-color: #ededed;
+  }
+  
+  .resposta {
+    display: block;
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    color: #373737;
+  }
+
+  .p{
+    padding: 20px;
+  }
+
+
+  

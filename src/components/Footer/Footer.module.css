@@ -1,5 +1,5 @@
 .footer {
-    background-color: #1d1d1d;
+    background-color: #F8F9F8;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
   }
   .boxverticallogo {
     width: 350px;
@@ -93,31 +93,31 @@
     transition: all 0.3s;
     position: relative;
     right: 10px;
-    color: white;
+    color: black;
 }
 
 .bola:hover{
     cursor: pointer;
-    color: white;
+    color: black;
 }
 
 .li{
     list-style: none;
     margin-top: 10px;
     font-weight: 200;
-    color: white;
+    color: black;
     font-size: 14px;
 
 }
 
 .textColumn{
     font-size: 14px;
-    color: white;
+    color: black;
 }
 
 .textAbout{
     font-size: 14px;
-    color: white;
+    color: black;
 }
 
 .Copyright{

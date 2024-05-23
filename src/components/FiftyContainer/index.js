@@ -9,12 +9,12 @@ export const FiftyContainer = () => {
         <div className="bg-[#ffff] w-full overflow-x-hidden overflow-y-hidden">
             <div className="bg-[#F8F9F8] min-h-[100vh] w-full py-10 overflow-x-hidden overflow-y-hidden rounded-t-[50px]">
                 <div className="flex flex-col justify-center items-center w-full mx-auto mt-20">
-                    <h1 className="text-4xl md:text-4xl text-black text-center font-[500] mt-14">
-                        Planos de Assinatura
+                    <h1 className="text-4xl md:text-3xl text-black text-center font-[500] mt-14">
+                        Planinhos que cabem no bolso! 💸
                     </h1>
-                    <div className="flex flex-col md:flex-row justify-center items-center w-full mt-10 md:mt-20 space-y-10 md:space-y-0 md:space-x-10">
+                    <div className="flex flex-col md:flex-row justify-center items-center w-full mt-10 md:mt-20 lg:space-y-0 space-y-10 md:space-x-10">
                         <div className="flex flex-col bg-white p-8 w-[300px] md:w-[350px] lg:w-[400px] rounded-lg shadow-lg transform transition-transform hover:scale-105">
-                            <h2 className="text-3xl text-black text-center font-[500] mb-6">
+                        <h2 className="text-3xl text-black text-center font-[500] mb-6">
                                 Plano Mensal
                             </h2>
                             <p className="text-lg text-black text-center font-light mb-6">
@@ -37,6 +37,12 @@ export const FiftyContainer = () => {
                                     <BiCheckCircle size={28} color="#4abd5d" />
                                     <p className="text-black font-light ml-2">
                                         Atualizações gratuitas.
+                                    </p>
+                                </li>
+                                <li className="flex flex-row items-center">
+                                    <BiCheckCircle size={28} color="#4abd5d" />
+                                    <p className="text-black font-light ml-2">
+                                        2 meses grátis.
                                     </p>
                                 </li>
                             </ul>

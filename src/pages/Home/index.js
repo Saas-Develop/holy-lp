@@ -4,6 +4,7 @@ import { ThirdContainer } from "@/components/ThirdContainer"
 import Footer from "@/components/Footer"
 import { FourthyContainer } from "@/components/FourthyContainer"
 import { FiftyContainer } from "@/components/FiftyContainer"
+import { SixtyContainer } from "@/components/SixtyContainer"
 
 export default function HomePage(){
     
@@ -14,6 +15,7 @@ export default function HomePage(){
             <ThirdContainer/>
             <FourthyContainer/>
             <FiftyContainer/>
+            <SixtyContainer/>
             <Footer/>
         </>
     )
