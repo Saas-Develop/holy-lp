@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .Content{
-  background: rgb(17,15,23);
+  background: #e0e0e0;
   height: 2000px;
   font-family: "Public Sans", sans-serif;
 }
@@ -33,7 +33,7 @@
 
 .title{
   font-size: 32px;
-  color: #e0e0e0;
+  color: black;
   margin-top: 50px;
   width: 780px;
   font-weight: 700;
@@ -44,7 +44,7 @@
   margin-top: 30px;
   text-align: left;
   font-weight: 300;
-  color: #e0e0e0;
+  color: black;
 }
 
 .b{
@@ -66,7 +66,7 @@
 
 .sectionTitle{
   margin-top: 50px;
-  color: white;
+  color: black;
 }
 
 .ButtonContainer{

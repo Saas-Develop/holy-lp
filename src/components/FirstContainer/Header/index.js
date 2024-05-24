@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { BiSolidUserCircle} from "react-icons/bi";
-import MobileMenu from "./MenuMobile";
-import logotype from '../../../../public/holy.png'
+import logotype from '../../../../public/holy_header.png'
 import Image from "next/image";
 
 export default function Header() {

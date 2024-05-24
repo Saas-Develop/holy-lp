@@ -26,6 +26,7 @@ export default function Footer(){
                       <nav>
                               <li className={styles.li}><Link href='/legal/termos' target='_blank'>Termos de uso</Link></li>
                               <li className={styles.li}><Link href='/legal/privacidade' target='_blank'>Política de privacidade</Link></li>
+                              <li className={styles.li}><Link href='/legal/reembolso' target='_blank'>Política de reembolso</Link></li>
                               <li className={styles.li}><Link href='/legal/nos' target='_blank'>Quem somos</Link></li>
                       </nav>
                   </div>
