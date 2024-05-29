@@ -63,9 +63,9 @@ export default function Terms(){
 
                             <p className={styles.subtitle}>
                                 Atenciosamente,<br/>
-                                Holy<br/><br/>
-                                © 2024 - Holy Solutions, Todos os direitos reservados<br/>
-                                CNPJ: 12.345.678/0001-90
+                                Equipe Holy<br/><br/>
+                                © 2024 - Alexandre Saints, Todos os direitos reservados<br/>
+                                CNPJ: 44.031.553/0001-87
                             </p>
                         </div>
                     </div>

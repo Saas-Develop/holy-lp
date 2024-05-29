@@ -25,8 +25,8 @@ export default function QuemSomos(){
                             <p className={styles.subtitle}>
                                 Atenciosamente,<br/>
                                 Equipe Holy<br/><br/>
-                                © 2024 - Holy Solutions, Todos os direitos reservados<br/>
-                                CNPJ: 12.345.678/0001-90
+                                © 2024 - Alexandre Saints, Todos os direitos reservados<br/>
+                                CNPJ: 44.031.553/0001-87
                             </p>
                         </div>
                     </div>

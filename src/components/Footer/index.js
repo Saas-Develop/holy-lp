@@ -17,7 +17,7 @@ export default function Footer(){
                   <div className={styles.coluna2}>
                       <h3 className={styles.textColumn}>Atendimento</h3>
                       <nav>
-                          <p className={styles.li}>contato@euvoceecristo.com</p>
+                          <p className={styles.li}>contato@holyapp.com.br</p>
                           {/* <p className={styles.li}>(21) 98370-2618</p> */}
                       </nav>
                   </div>
@@ -46,9 +46,10 @@ export default function Footer(){
                   </div>
               </div>
               <div className={styles.SecondFooter}>
-                  <p className={styles.Copyright}>
-                      © 2024 - Alexandre Saints, Todos os direitos reservados<br/>
-                  </p>
+                <p className={styles.Copyright}>
+                    © 2024 - Alexandre Saints, Todos os direitos reservados<br/>
+                    CNPJ: 44.031.553/0001-87
+                </p>
               </div>  
       </footer>
     )

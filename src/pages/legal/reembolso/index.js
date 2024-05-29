@@ -33,7 +33,9 @@ export default function PoliticaReembolso(){
 
                             <p className={styles.subtitle}>
                                 Atenciosamente,<br/>
-                                Equipe Holy
+                                Equipe Holy<br/><br/>
+                                © 2024 - Alexandre Saints, Todos os direitos reservados<br/>
+                                CNPJ: 44.031.553/0001-87
                             </p>
                         </div>
                     </div>
