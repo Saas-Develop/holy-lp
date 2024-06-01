@@ -17,7 +17,7 @@ export const FourthyContainer = () => {
         <div className="bg-[#FFFFFF] min-h-[65vh] w-full py-10 overflow-x-hidden overflow-y-hidden "> 
             <main>
                 <h1 className="text-4xl md:text-3xl text-black text-center w-full md:w-[900px] mx-auto mt-14 md:mt-28 font-sans font-[500]" id="PlanoTop">Palavras de usuários satisfeitos 😍</h1>
-                <div className="flex lg:flex-row w-[70vw] mx-auto flex-col lg:justify-around">
+                <div className="flex lg:flex-row lg:w-[70vw] mx-auto flex-col lg:justify-around">
                     <div className="rounded-[30px] bg-white w-[350px] h-[350px] mx-auto mt-10 flex flex-col shadow-md">
                         <div className="flex flex-col justify-between p-6">
                             <ImQuotesLeft  size={28} color="gray"/>
