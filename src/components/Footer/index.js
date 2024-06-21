@@ -39,9 +39,8 @@ export default function Footer(){
                       </nav> */}
                       <h3  className={styles.textColumn}>Redes sociais</h3>
                       <div className={styles.redes}>
-                          <Link href="#" target="_blank"><FaInstagram size={38} className={styles.bola}/></Link>
-                          <Link href="#" target="_blank"><FaYoutube size={38} className={styles.bola}/></Link>
-                          <Link href="#" target="_blank"><FaLinkedin size={38} className={styles.bola}/></Link>
+                          <Link href="https://www.instagram.com/appholy/" target="_blank"><FaInstagram size={38} className={styles.bola}/></Link>
+                          <Link href="https://www.linkedin.com/company/next-academy-growth" target="_blank"><FaLinkedin size={38} className={styles.bola}/></Link>
                       </div>
                   </div>
               </div>
