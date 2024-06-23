@@ -6,6 +6,7 @@ import Image from "next/image"
 import { IoMdArrowForward } from "react-icons/io";
 import { MdOutlineArrowOutward, MdStars  } from "react-icons/md";
 import { useEffect, useRef } from "react";
+import Link from "next/link";
 
 export const FirstContainer = () => {
     const handleClick = () => {
@@ -43,10 +44,10 @@ export const FirstContainer = () => {
                                 <p className="text-white">Nossas funcionalidades</p>
                                 <IoMdArrowForward size={28} color="white"/>
                             </div>
-                            <div className="flex flex-row bg-white py-5 px-6 w-full md:w-[270px] rounded-full cursor-pointer justify-between shadow-lg">
+                            <Link href='https://play.google.com/store/apps/details?id=com.nextsolutions.holy' target="_blank" className="flex flex-row bg-white py-5 px-6 w-full md:w-[270px] rounded-full cursor-pointer justify-between shadow-lg">
                                 <p className="text-black">Baixar o app</p>
                                 <MdOutlineArrowOutward size={28} color="black"/>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

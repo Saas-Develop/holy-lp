@@ -1,7 +1,7 @@
 import styles from './Footer.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
-import {FaInstagram, FaYoutube, FaLinkedin} from "react-icons/fa";
+import {FaInstagram, FaGooglePlay, FaLinkedin} from "react-icons/fa";
 import logo from '../../../public/holy.png'
 
 export default function Footer(){
@@ -37,8 +37,9 @@ export default function Footer(){
                           <li className={styles.li}><Link href='#' className={styles.li}>Plano mensal</Link></li>
                           <li className={styles.li}><Link href='#' className={styles.li}>Plano semestral</Link></li>
                       </nav> */}
-                      <h3  className={styles.textColumn}>Redes sociais</h3>
+                      <h3  className={styles.textColumn}>Nos encontre!</h3>
                       <div className={styles.redes}>
+                          <Link href="https://play.google.com/store/apps/details?id=com.nextsolutions.holy" target="_blank"><FaGooglePlay size={38} className={styles.bola}/></Link>
                           <Link href="https://www.instagram.com/appholy/" target="_blank"><FaInstagram size={38} className={styles.bola}/></Link>
                           <Link href="https://www.linkedin.com/company/next-academy-growth" target="_blank"><FaLinkedin size={38} className={styles.bola}/></Link>
                       </div>

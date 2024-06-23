@@ -10,7 +10,7 @@ export default function Header() {
           <nav className='mx-auto flex flex-row items-center justify-between p-5'>
                 <Image src={logotype} width={80} alt='logotype'/>
                 <div className='flex flex-row items-center'>
-                    <Link href='#' target="_blank" className='py-1 px-5 flex flex-row items-center justify-center mr-10 bg-gray-900 rounded-full border-none no-underline'>
+                    <Link href='https://play.google.com/store/apps/details?id=com.nextsolutions.holy' target="_blank" className='py-1 px-5 flex flex-row items-center justify-center mr-10 bg-gray-900 rounded-full border-none no-underline'>
                         <h5 className="text-white text-center text-base font-normal">Baixar</h5>
                     </Link>
                 </div>

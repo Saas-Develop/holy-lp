@@ -3,6 +3,7 @@ import foto1 from '../../../public/pic.png'
 import Image from "next/image"
 import { MdOutlineArrowOutward  } from "react-icons/md";
 import { BiCheckCircle } from "react-icons/bi";
+import Link from "next/link";
 
 export const ThirdContainer = () => {
     return(
@@ -32,12 +33,12 @@ export const ThirdContainer = () => {
                                     </li>
                                 </ul>
                                     <div className="flex flex-row mt-20 ">
-                                        <div className="flex flex-row mx-auto mb-20 lg:ml-20 bg-gray-900 py-5 px-6 w-[270px] rounded-full cursor-pointer justify-between shadow-lg">
+                                        <Link href='https://play.google.com/store/apps/details?id=com.nextsolutions.holy' target="_blank" className="flex flex-row mx-auto mb-20 lg:ml-20 bg-gray-900 py-5 px-6 w-[270px] rounded-full cursor-pointer justify-between shadow-lg">
                                             <p className="text-white">
                                                 Baixar o app
                                             </p>
                                             <MdOutlineArrowOutward size={28} color="white"/>
-                                        </div>
+                                        </Link>
                                     </div>
                         </div>
                         <Image src={foto1} className="float-animation" alt="couple" width={600}/>
